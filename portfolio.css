@@ -274,14 +274,14 @@ section {
   padding: 16px;
   display: flex;
   align-items: center;
-  gap: 78px;
+  gap: 80px;
 
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .tools-card img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
   justify-content: center;
 }
@@ -521,8 +521,8 @@ text-decoration: none;
 }
 
 .social-links img {
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
   object-fit: contain;
 }
 
@@ -534,36 +534,4 @@ footer {
   padding: 30px;
   color: var(--gray);
   font-size: 14px;
-}
-
-/* =====================
-   RESPONSIVE
-===================== */
-@media (max-width: 900px) {
-  header {
-    padding: 24px 32px;
-  }
-
-  .hero-glass {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .hero-image {
-    align-items: center;
-  }
-
-  .hero-image img {
-    width: 240px;
-    max-height: 320px;
-  }
-
-  .projects {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .project-card {
-    height: 240px;
-  }
 }
